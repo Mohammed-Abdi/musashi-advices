@@ -1,0 +1,43 @@
+.advice-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  height: 18.75rem;
+  width: 18.75rem;
+  border-radius: 0.5rem;
+  border: 2px solid #484848;
+  padding: 1.25rem;
+}
+
+.advice-box .advice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+}
+
+.advice-box p {
+  display: flex;
+  gap: 0.3rem;
+  font-size: 0.875rem;
+}
+
+.advice-box p span {
+  opacity: 0.7;
+}
+
+button {
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  background-color: transparent;
+  color: inherit;
+  border: 1px solid #6d6d6d;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  background-color: #484848;
+}
