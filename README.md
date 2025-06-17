@@ -5,7 +5,7 @@
 <div align="center">
   <h1>🙏 Musashi Advice - Timeless Wisdom</h1>
 
-  <a href="https://musashi-advice.vercel.app" target="_blank">
+  <a href="https://musashiadvices.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/Live%20App-View%20Musashi%20Advices-0A66C2?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Site" />
   </a>
 </div>
