@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advice-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #b0b0b0;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 300px;
+  min-height: 200px;
+  margin-inline: auto;
+  position: relative;
+  padding: 1.25rem;
+}
+
+.wrapper .display {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  max-width: 250px;
+  /* border: 2px solid red; */
+  height: 100px;
+}
+
+.wrapper img {
+  transform: translateX(-10px);
+}
+
+.wrapper button {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper p {
+  padding-block: 0.5rem;
+  font-size: 0.875rem;
+  opacity: 0.7;
+}
