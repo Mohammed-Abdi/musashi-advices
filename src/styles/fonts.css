@@ -1,0 +1,17 @@
+/* zen-kaku-gothic-antique-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Zen Kaku Gothic Antique";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/zen-kaku-gothic-antique-v17-latin-regular.woff2")
+    format("woff2");
+}
+/* zen-kaku-gothic-antique-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Zen Kaku Gothic Antique";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/zen-kaku-gothic-antique-v17-latin-500.woff2") format("woff2");
+}

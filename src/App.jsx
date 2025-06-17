@@ -1,31 +1,19 @@
-import "./App.css";
-import { useEffect, useState } from "react";
-import Message from "./Message.jsx";
+import "./styles/App.css";
 
 function App() {
-  const [advice, setAdvice] = useState("");
-  const [count, setCount] = useState(0);
-
-  async function getAdvice() {
-    const res = await fetch("https://api.adviceslip.com/advice");
-    const data = await res.json();
-    setAdvice(data.slip.advice);
-    setCount((count) => count + 1);
-  }
-
-  useEffect(() => {
-    getAdvice();
-  }, []);
   return (
-    <>
-      <div className="advice-box">
-        <span className="advice">{advice}</span>
-        <Message count={count} />
-        <button className="advice-btn" onClick={getAdvice}>
-          Get Advice
-        </button>
+    <div className="wrapper">
+      <img
+        src="/image/musashi.webp"
+        alt="photo of miyamoto musashi"
+        width={150}
+        height={150}
+      />
+      <div className="advice-card">
+        <div className="display"></div>
+        <button>Get Advice</button>
       </div>
-    </>
+    </div>
   );
 }
 
