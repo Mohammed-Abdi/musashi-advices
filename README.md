@@ -47,7 +47,7 @@ First, fork the repository on GitHub to your own account.
 
 ```bash
 git clone https://github.com/Mohammed-Abdi/musashi-advices.git
-cd trip-tote
+cd musashi-advices
 ```
 
 #### 2.Install Dependencies
