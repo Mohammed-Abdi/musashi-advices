@@ -11,6 +11,7 @@ function App() {
   }
 
   function getAdvice() {
+    randomNumber = Math.floor(Math.random() * advices.length);
     setID(randomNumber);
     countAdvices();
   }
