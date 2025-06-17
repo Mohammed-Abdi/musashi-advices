@@ -4,7 +4,7 @@ import { useState } from "react";
 function App() {
   let randomNumber = Math.floor(Math.random() * advices.length);
   const [id, setID] = useState(randomNumber);
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   function countAdvices() {
     setCount((c) => c + 1);
